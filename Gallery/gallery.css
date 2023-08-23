@@ -1,0 +1,26 @@
+.move {
+    text-align: center;
+}
+.move h1 {
+	padding: 0 10px;
+}
+.kitch {
+	background: linear-gradient(-45deg, #7FFFD4, #47B38F, #FF9980, #99FFDD);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.kitchenlogo {
+    border-radius: 50%;
+}

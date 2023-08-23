@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(-45deg, #7FFFD4, #47B38F, #FF9980, #99FFDD);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Tinos', serif;
+    box-sizing: border-box;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+  p {
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .homepage {
+    background-color: #0d6efd;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 30px;
+}
+.homepage > a {
+    text-decoration: none;
+    color: white;
+}
+.padme {
+    padding: 5px 20px;
+}

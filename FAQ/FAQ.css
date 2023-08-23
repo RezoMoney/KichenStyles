@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%vh;
+    background: linear-gradient(-45deg, #7FFFD4, #47B38F, #FF9980, #99FFDD);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Tinos', serif;
+    box-sizing: border-box;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.homepage {
+    background-color: #0d6efd;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 30px;
+}
+.homepage > a {
+    text-decoration: none;
+    color: white;
+}
+input[ type="submit"] {
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 5px 5px;
+}
+textarea {
+    border-radius: 5px;
+}
+
+/* Media Q */
+@media screen and (max-width: 380px) {
+    body {
+        display: block;
+    }
+textarea[cols="50"] {
+    max-width: 100%;
+}
+}
